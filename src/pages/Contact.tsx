@@ -266,9 +266,9 @@ const Contact = () => {
                         <span className="font-semibold">Main Office</span>
                       </div>
                       <p className="text-muted-foreground mb-4">
-                        123 Healthcare Avenue<br />
-                        Medical City, MC 12345<br />
-                        United States
+                        Kimathi Street, Medical Plaza<br />
+                        Nairobi City, 00100<br />
+                        Kenya
                       </p>
                       <div className="w-full h-48 bg-gradient-trust rounded-lg flex items-center justify-center">
                         <span className="text-muted-foreground">Interactive Map Coming Soon</span>
