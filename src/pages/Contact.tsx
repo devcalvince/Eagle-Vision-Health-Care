@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+1 (555) 123-4567"],
+      details: ["+254 716499945"],
       description: "Call us for immediate assistance",
       action: "Call Now",
       actionType: "primary"
@@ -57,7 +57,7 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["info@eaglevisionhc.com"],
+      details: ["eaglevisionhealthcare@gmail.com"],
       description: "Send us detailed questions",
       action: "Send Email",
       actionType: "secondary"
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: "WhatsApp",
-      details: ["+1 (555) 123-4567"],
+      details: ["+254 716499945"],
       description: "Chat with us on WhatsApp",
       action: "Start Chat",
       actionType: "secondary"
@@ -100,7 +100,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +254 716499945
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
               <Calendar className="w-5 h-5 mr-2" />

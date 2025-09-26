@@ -13,7 +13,7 @@ const Testimonials = () => {
       condition: "Arthritis",
       rating: 5,
       text: "After struggling with arthritis pain for years, Eagle Vision Healthcare provided me with treatments that actually worked. The Joint Support Capsules have significantly reduced my pain and improved my mobility. The staff was professional and caring throughout my treatment.",
-      location: "California",
+      location: "Nairobi County",
       timeframe: "6 months ago"
     },
     {
@@ -22,7 +22,7 @@ const Testimonials = () => {
       condition: "Hypalori",
       rating: 5,
       text: "I had been dealing with stomach issues for months before finding Eagle Vision Healthcare. Their comprehensive approach to treating H. pylori infection not only eliminated the bacteria but also helped restore my digestive health. I'm finally able to enjoy meals without pain.",
-      location: "Texas",
+      location: "Mombasa County",
       timeframe: "4 months ago"
     },
     {
@@ -31,7 +31,7 @@ const Testimonials = () => {
       condition: "Secondary Infertility",
       rating: 5,
       text: "After trying to conceive our second child for over two years, we were losing hope. The fertility support program at Eagle Vision Healthcare gave us the comprehensive care we needed. We're now proud parents of a healthy baby boy!",
-      location: "Florida",
+      location: "Kisumu County",
       timeframe: "1 year ago"
     },
     {
@@ -40,7 +40,7 @@ const Testimonials = () => {
       condition: "Fibroids",
       rating: 5,
       text: "The Uterine Health Kit completely changed my life. I was suffering from heavy bleeding and pain due to fibroids. Within 3 months of treatment, my symptoms dramatically improved. I can't thank Eagle Vision Healthcare enough for giving me my life back.",
-      location: "New York",
+      location: "Nakuru County",
       timeframe: "8 months ago"
     },
     {
@@ -49,7 +49,7 @@ const Testimonials = () => {
       condition: "Prostate Health",
       rating: 5,
       text: "As a 55-year-old man dealing with prostate issues, I was worried about my future. The Prostate Care Capsules and professional guidance from Eagle Vision Healthcare have improved my symptoms significantly. I feel like myself again.",
-      location: "Arizona",
+      location: "Eldoret County",
       timeframe: "5 months ago"
     },
     {
@@ -58,7 +58,7 @@ const Testimonials = () => {
       condition: "Diabetes Support",
       rating: 5,
       text: "Managing diabetes was overwhelming until I found Eagle Vision Healthcare. Their comprehensive approach and quality supplements have helped me maintain better blood sugar levels. The personalized care made all the difference.",
-      location: "Colorado",
+      location: "Machakos County",
       timeframe: "7 months ago"
     },
     {
@@ -67,7 +67,7 @@ const Testimonials = () => {
       condition: "High Blood Pressure",
       rating: 5,
       text: "The Circulation Support Capsules and Heart Health Tea have been game-changers for my blood pressure management. Combined with their professional guidance, I've been able to maintain healthier levels and feel more energetic.",
-      location: "Oregon",
+      location: "Kiambu County",
       timeframe: "6 months ago"
     },
     {
@@ -76,7 +76,7 @@ const Testimonials = () => {
       condition: "Skin Conditions",
       rating: 5,
       text: "I had been struggling with eczema for years, trying countless treatments. The comprehensive skin care approach from Eagle Vision Healthcare, including their herbal products, finally gave me the clear skin I had been hoping for.",
-      location: "Washington",
+      location: "Kakamega County",
       timeframe: "9 months ago"
     }
   ];
@@ -249,7 +249,7 @@ const Testimonials = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +254 716499945
             </Button>
             <Link to="/contact">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
