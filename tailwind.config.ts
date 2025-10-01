@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -61,21 +66,24 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+
+        // 🌿 Custom Jungle Green color
+        jungleGreen: "#29AB87",
       },
       backgroundImage: {
-        'gradient-primary': 'var(--gradient-primary)',
-        'gradient-secondary': 'var(--gradient-secondary)', 
-        'gradient-hero': 'var(--gradient-hero)',
-        'gradient-trust': 'var(--gradient-trust)',
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-secondary": "var(--gradient-secondary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-trust": "var(--gradient-trust)",
       },
       boxShadow: {
-        'medical': 'var(--shadow-medical)',
-        'trust': 'var(--shadow-trust)',
-        'card': 'var(--shadow-card)',
+        medical: "var(--shadow-medical)",
+        trust: "var(--shadow-trust)",
+        card: "var(--shadow-card)",
       },
       spacing: {
-        'section': 'var(--spacing-section)',
-        'content': 'var(--spacing-content)',
+        section: "var(--spacing-section)",
+        content: "var(--spacing-content)",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,20 +92,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {

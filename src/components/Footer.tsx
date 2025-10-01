@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © 2024 Eagle Vision Healthcare. All rights reserved.
+              © Autene Sfts & Eagle Vision Healthcare. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm text-center">
               <strong>Medical Disclaimer:</strong> This site provides health information and medicines but is not a substitute for professional medical diagnosis.
