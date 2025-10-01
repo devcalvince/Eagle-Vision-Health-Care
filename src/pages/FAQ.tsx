@@ -139,7 +139,7 @@ const FAQ = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              Call: +1 (555) 123-4567
+              Call: +254 716499945
             </Button>
             <Link to="/contact">
               <Button variant="outline" className="flex items-center gap-2">
@@ -149,7 +149,7 @@ const FAQ = () => {
             </Link>
             <Button variant="outline" className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
-              info@eaglevisionhc.com
+              eaglevisionhealthcare@gmail.com
             </Button>
           </div>
         </div>
@@ -215,7 +215,7 @@ const FAQ = () => {
                 <p className="text-muted-foreground mb-4">
                   Speak directly with our healthcare team
                 </p>
-                <p className="font-semibold text-primary">+1 (555) 123-4567</p>
+                <p className="font-semibold text-primary">+254 716499945</p>
                 <p className="text-sm text-muted-foreground">Mon-Fri 8AM-6PM EST</p>
               </CardContent>
             </Card>
@@ -244,7 +244,7 @@ const FAQ = () => {
                 <p className="text-muted-foreground mb-4">
                   Send us detailed questions
                 </p>
-                <p className="font-semibold text-primary">info@eaglevisionhc.com</p>
+                <p className="font-semibold text-primary">eaglevisionhealthcare@gmail.com</p>
                 <p className="text-sm text-muted-foreground">Response within 24 hours</p>
               </CardContent>
             </Card>

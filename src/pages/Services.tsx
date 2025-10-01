@@ -259,7 +259,7 @@ const Services = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +254 716499945
             </Button>
             <Link to="/contact">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">

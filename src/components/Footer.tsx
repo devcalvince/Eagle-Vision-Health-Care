@@ -58,15 +58,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground text-sm">+254 716 499 945</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">info@eaglevisionhc.com</span>
+                <span className="text-muted-foreground text-sm">eaglevisionhealthcare@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">123 Healthcare Ave, Medical City, MC 12345</span>
+                <span className="text-muted-foreground text-sm">
+                  Kimathi Street, Medical Plaza<br />
+                  Nairobi City, 00100<br />
+                  Kenya
+                </span>
               </div>
             </div>
           </div>
@@ -75,7 +79,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © Autene Sfts & Eagle Vision Healthcare. All rights reserved.
+              © Eagle Vision Healthcare. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm text-center">
               <strong>Medical Disclaimer:</strong> This site provides health information and medicines but is not a substitute for professional medical diagnosis.

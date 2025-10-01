@@ -179,7 +179,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-gradient-primary hover:opacity-90 text-lg px-8 py-4">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +254 716 499 945
             </Button>
             <Link to="/services">
               <Button size="lg" variant="outline" className="text-lg px-8 py-4">
