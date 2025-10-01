@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, ShoppingCart, Calendar, Heart, Shield, Users, Star } from "lucide-react";
+import { Phone, ShoppingCart, Calendar, Heart, Shield, Users, Star, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -11,7 +11,7 @@ import medicinesImage from "@/assets/medicines.jpg";
 const Index = () => {
   const conditions = [
     "Arthritis & Joint Pain",
-    "Hypalori & Stomach Issues", 
+    "Hypalori & Stomach Issues",
     "Secondary Infertility",
     "Fibroids & Women's Health",
     "Dental Health",
@@ -19,35 +19,35 @@ const Index = () => {
     "Blood Pressure",
     "Eye Health",
     "Skin Conditions",
-    "Prostate Health"
+    "Prostate Health",
   ];
 
   const features = [
     {
       icon: <Heart className="w-6 h-6" />,
       title: "Trusted Healthcare",
-      description: "Over 10 years of experience providing quality medicines and treatments"
+      description: "Over 10 years of experience providing quality medicines and treatments",
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Safe & Effective", 
-      description: "All products are carefully tested and approved for safety and efficacy"
+      title: "Safe & Effective",
+      description: "All products are carefully tested and approved for safety and efficacy",
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Patient-Focused",
-      description: "Personalized treatment plans tailored to your specific health needs"
-    }
+      description: "Personalized treatment plans tailored to your specific health needs",
+    },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="relative bg-gradient-hero py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-black/40"></div>
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
         ></div>
@@ -64,7 +64,11 @@ const Index = () => {
               <Phone className="w-5 h-5 mr-2" />
               Call Now
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
+            >
               <ShoppingCart className="w-5 h-5 mr-2" />
               Order Medicines
             </Button>
@@ -106,7 +110,10 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
             {conditions.map((condition, index) => (
-              <div key={index} className="bg-muted/50 rounded-lg p-4 text-center hover:bg-primary/10 transition-colors cursor-pointer">
+              <div
+                key={index}
+                className="bg-muted/50 rounded-lg p-4 text-center hover:bg-primary/10 transition-colors cursor-pointer"
+              >
                 <span className="text-sm font-medium">{condition}</span>
               </div>
             ))}
@@ -128,10 +135,11 @@ const Index = () => {
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose Eagle Vision Healthcare?</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                With over a decade of experience, we provide direct access to quality medicines and treatments. 
-                Our patient-focused approach ensures you receive personalized care for your specific health needs.
+                With over a decade of experience, we provide direct access to quality medicines and treatments. Our
+                patient-focused approach ensures you receive personalized care for your specific health needs.
               </p>
               <ul className="space-y-3 mb-8">
+                {/* Original 3 points */}
                 <li className="flex items-center gap-3">
                   <Star className="w-5 h-5 text-secondary" />
                   <span>Direct medicine provision - no referrals needed</span>
@@ -144,6 +152,23 @@ const Index = () => {
                   <Star className="w-5 h-5 text-secondary" />
                   <span>Proven track record of patient success</span>
                 </li>
+                {/* New 4 points */}
+                <li className="flex items-center gap-3">
+                  <Star className="w-5 h-5 text-secondary" />
+                  <span>Free appointment booking in our facilities countrywide</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Star className="w-5 h-5 text-secondary" />
+                  <span>We use both pharmaceuticals and nutraceuticals with natural ingredients</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Star className="w-5 h-5 text-secondary" />
+                  <span>We provide ongoing follow-up for all patients to ensure continuous improvement</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Star className="w-5 h-5 text-secondary" />
+                  <span>Free consultation for both men and women with 24-hour standby consultants</span>
+                </li>
               </ul>
               <Link to="/about">
                 <Button size="lg" className="bg-gradient-primary hover:opacity-90">
@@ -152,8 +177,8 @@ const Index = () => {
               </Link>
             </div>
             <div className="relative">
-              <img 
-                src={consultationImage} 
+              <img
+                src={consultationImage}
                 alt="Professional healthcare consultation"
                 className="rounded-lg shadow-trust w-full"
               />
@@ -167,8 +192,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative lg:order-1">
-              <img 
-                src={medicinesImage} 
+              <img
+                src={medicinesImage}
                 alt="Quality medicines and healthcare products"
                 className="rounded-lg shadow-trust w-full"
               />
@@ -176,8 +201,8 @@ const Index = () => {
             <div className="lg:order-2">
               <h2 className="text-3xl lg:text-4xl font-bold mb-6">Quality Products for Better Health</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Browse our comprehensive range of medicines and health products, carefully selected for 
-                safety and effectiveness across multiple health categories.
+                Browse our comprehensive range of medicines and health products, carefully selected for safety and
+                effectiveness across multiple health categories.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="text-center p-4 bg-muted/50 rounded-lg">
@@ -209,13 +234,16 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +254 716499945
             </Button>
-            <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
-                Get Consultation
-              </Button>
-            </Link>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
+            >
+              <Mail className="w-5 h-5 mr-2" />
+              eaglevisionhealthcare@gmail.com
+            </Button>
           </div>
         </div>
       </section>
